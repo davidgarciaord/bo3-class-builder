@@ -1,0 +1,274 @@
+[
+  [
+  {
+    "id": 1,
+    "name": "KN-44",
+    "type": "Rifle de asalto",
+    "damage": 75,
+    "fireRate": "Media",
+    "description": "Rifle equilibrado muy estable y eficaz a media distancia.",
+    "image": "/images/weapons/kn44.png"
+  },
+  {
+    "id": 2,
+    "name": "Man-O-War",
+    "type": "Rifle de asalto",
+    "damage": 85,
+    "fireRate": "Baja",
+    "description": "Rifle potente con gran daño pero cadencia reducida.",
+    "image": "/images/weapons/manowar.png"
+  },
+  {
+    "id": 3,
+    "name": "HVK-30",
+    "type": "Rifle de asalto",
+    "damage": 65,
+    "fireRate": "Alta",
+    "description": "Rifle automático con gran velocidad de disparo.",
+    "image": "/images/weapons/hvk30.png"
+  },
+  {
+    "id": 4,
+    "name": "ICR-1",
+    "type": "Rifle de asalto",
+    "damage": 70,
+    "fireRate": "Media",
+    "description": "Rifle extremadamente preciso con muy poco retroceso.",
+    "image": "/images/weapons/icr1.png"
+  },
+  {
+    "id": 5,
+    "name": "Sheiva",
+    "type": "Rifle de asalto",
+    "damage": 90,
+    "fireRate": "Muy baja",
+    "description": "Rifle semiautomático con gran daño por disparo.",
+    "image": "/images/weapons/sheiva.png"
+  },
+  {
+    "id": 6,
+    "name": "M8A7",
+    "type": "Rifle de asalto",
+    "damage": 82,
+    "fireRate": "Media",
+    "description": "Rifle de ráfagas muy preciso y letal.",
+    "image": "/images/weapons/m8a7.png"
+  },
+  {
+    "id": 7,
+    "name": "Kuda",
+    "type": "Subfusil",
+    "damage": 68,
+    "fireRate": "Alta",
+    "description": "Subfusil muy equilibrado para combates cercanos.",
+    "image": "/images/weapons/kuda.png"
+  },
+  {
+    "id": 8,
+    "name": "VMP",
+    "type": "Subfusil",
+    "damage": 70,
+    "fireRate": "Muy alta",
+    "description": "Subfusil extremadamente rápido y popular.",
+    "image": "/images/weapons/vmp.png"
+  },
+  {
+    "id": 9,
+    "name": "Weevil",
+    "type": "Subfusil",
+    "damage": 60,
+    "fireRate": "Alta",
+    "description": "Subfusil con gran cargador ideal para disparos continuos.",
+    "image": "/images/weapons/weevil.png"
+  },
+  {
+    "id": 10,
+    "name": "Pharo",
+    "type": "Subfusil",
+    "damage": 72,
+    "fireRate": "Media",
+    "description": "Subfusil de ráfagas muy letal en distancias cortas.",
+    "image": "/images/weapons/pharo.png"
+  },
+  {
+    "id": 11,
+    "name": "Razorback",
+    "type": "Subfusil",
+    "damage": 69,
+    "fireRate": "Media",
+    "description": "Subfusil con buen alcance y estabilidad.",
+    "image": "/images/weapons/razorback.png"
+  },
+  {
+    "id": 12,
+    "name": "Haymaker 12",
+    "type": "Escopeta",
+    "damage": 90,
+    "fireRate": "Alta",
+    "description": "Escopeta automática devastadora a corta distancia.",
+    "image": "/images/weapons/haymaker12.png"
+  },
+  {
+    "id": 13,
+    "name": "KRM-262",
+    "type": "Escopeta",
+    "damage": 95,
+    "fireRate": "Baja",
+    "description": "Escopeta de bombeo con enorme daño.",
+    "image": "/images/weapons/krm262.png"
+  },
+  {
+    "id": 14,
+    "name": "Argus",
+    "type": "Escopeta",
+    "damage": 92,
+    "fireRate": "Media",
+    "description": "Escopeta precisa si apuntas con la mira.",
+    "image": "/images/weapons/argus.png"
+  },
+  {
+    "id": 15,
+    "name": "205 Brecci",
+    "type": "Escopeta",
+    "damage": 88,
+    "fireRate": "Media",
+    "description": "Escopeta semiautomática muy fuerte en interiores.",
+    "image": "/images/weapons/brecci.png"
+  },
+  {
+    "id": 16,
+    "name": "BRM",
+    "type": "Ametralladora ligera",
+    "damage": 80,
+    "fireRate": "Media",
+    "description": "LMG potente con buena estabilidad.",
+    "image": "/images/weapons/brm.png"
+  },
+  {
+    "id": 17,
+    "name": "Dingo",
+    "type": "Ametralladora ligera",
+    "damage": 78,
+    "fireRate": "Alta",
+    "description": "LMG con gran cadencia y movilidad.",
+    "image": "/images/weapons/dingo.png"
+  },
+  {
+    "id": 18,
+    "name": "Gorgon",
+    "type": "Ametralladora ligera",
+    "damage": 95,
+    "fireRate": "Muy baja",
+    "description": "LMG extremadamente potente pero lenta.",
+    "image": "/images/weapons/gorgon.png"
+  },
+  {
+    "id": 19,
+    "name": "48 Dredge",
+    "type": "Ametralladora ligera",
+    "damage": 85,
+    "fireRate": "Media",
+    "description": "LMG de ráfagas con gran daño.",
+    "image": "/images/weapons/dredge.png"
+  },
+  {
+    "id": 20,
+    "name": "Drakon",
+    "type": "Rifle de francotirador",
+    "damage": 80,
+    "fireRate": "Alta",
+    "description": "Francotirador semiautomático para disparos rápidos.",
+    "image": "/images/weapons/drakon.png"
+  },
+  {
+    "id": 21,
+    "name": "Locus",
+    "type": "Rifle de francotirador",
+    "damage": 95,
+    "fireRate": "Baja",
+    "description": "Sniper potente muy usado para quickscope.",
+    "image": "/images/weapons/locus.png"
+  },
+  {
+    "id": 22,
+    "name": "SVG-100",
+    "type": "Rifle de francotirador",
+    "damage": 98,
+    "fireRate": "Muy baja",
+    "description": "Sniper extremadamente potente.",
+    "image": "/images/weapons/svg100.png"
+  },
+  {
+    "id": 23,
+    "name": "RK5",
+    "type": "Pistola",
+    "damage": 65,
+    "fireRate": "Alta",
+    "description": "Pistola de ráfagas muy fiable.",
+    "image": "/images/weapons/rk5.png"
+  },
+  {
+    "id": 24,
+    "name": "MR6",
+    "type": "Pistola",
+    "damage": 60,
+    "fireRate": "Media",
+    "description": "Pistola estándar equilibrada.",
+    "image": "/images/weapons/mr6.png"
+  },
+  {
+    "id": 25,
+    "name": "L-CAR 9",
+    "type": "Pistola",
+    "damage": 55,
+    "fireRate": "Muy alta",
+    "description": "Pistola automática con gran cadencia.",
+    "image": "/images/weapons/lcar9.png"
+  },
+  {
+    "id": 26,
+    "name": "XM-53",
+    "type": "Lanzacohetes",
+    "damage": 100,
+    "fireRate": "Muy baja",
+    "description": "Lanzacohetes guiado contra vehículos.",
+    "image": "/images/weapons/xm53.png"
+  },
+  {
+    "id": 27,
+    "name": "BlackCell",
+    "type": "Lanzacohetes",
+    "damage": 100,
+    "fireRate": "Muy baja",
+    "description": "Lanzador de misiles antiaéreos.",
+    "image": "/images/weapons/blackcell.png"
+  },
+  {
+    "id": 28,
+    "name": "Combat Knife",
+    "type": "Cuerpo a cuerpo",
+    "damage": 100,
+    "fireRate": "Media",
+    "description": "Cuchillo letal en combate cercano.",
+    "image": "/images/weapons/combatknife.png"
+  },
+  {
+    "id": 29,
+    "name": "NX ShadowClaw",
+    "type": "Especial",
+    "damage": 85,
+    "fireRate": "Media",
+    "description": "Ballesta silenciosa con gran daño.",
+    "image": "/images/weapons/shadowclaw.png"
+  },
+  {
+    "id": 30,
+    "name": "HG 40",
+    "type": "Subfusil",
+    "damage": 70,
+    "fireRate": "Media",
+    "description": "Subfusil clásico inspirado en el MP40.",
+    "image": "/images/weapons/hg40.png"
+  }
+]
+]

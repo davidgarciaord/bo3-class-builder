@@ -1,0 +1,425 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "alex",
+      "email": "alex@gmail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "131e",
+      "username": "dgx",
+      "email": "dago@gmail.com",
+      "password": "1234",
+      "role": "user"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "1",
+      "name": "KN-44",
+      "type": "Rifle de asalto",
+      "damage": 75,
+      "fireRate": "Media",
+      "description": "Rifle equilibrado muy estable.",
+      "image": "/images/weapons/kn44.webp"
+    },
+    {
+      "id": "2",
+      "name": "Man-O-War",
+      "type": "Rifle de asalto",
+      "damage": 85,
+      "fireRate": "Baja",
+      "description": "Gran daño pero menor cadencia.",
+      "image": "/images/weapons/manowar.webp"
+    },
+    {
+      "id": "3",
+      "name": "HVK-30",
+      "type": "Rifle de asalto",
+      "damage": 65,
+      "fireRate": "Alta",
+      "description": "Rifle rápido para combates dinámicos.",
+      "image": "/images/weapons/hvk30.webp"
+    },
+    {
+      "id": "4",
+      "name": "ICR-1",
+      "type": "Rifle de asalto",
+      "damage": 70,
+      "fireRate": "Media",
+      "description": "Muy preciso y con poco retroceso.",
+      "image": "/images/weapons/icr1.webp"
+    },
+    {
+      "id": "5",
+      "name": "Sheiva",
+      "type": "Rifle de asalto",
+      "damage": 90,
+      "fireRate": "Muy baja",
+      "description": "Rifle semiautomático de gran daño.",
+      "image": "/images/weapons/sheiva.jpg"
+    },
+    {
+      "id": "6",
+      "name": "M8A7",
+      "type": "Rifle de asalto",
+      "damage": 82,
+      "fireRate": "Media",
+      "description": "Rifle de ráfagas muy preciso.",
+      "image": "/images/weapons/m8a7.webp"
+    },
+    {
+      "id": "7",
+      "name": "Kuda",
+      "type": "Subfusil",
+      "damage": 68,
+      "fireRate": "Alta",
+      "description": "Subfusil equilibrado para corta distancia.",
+      "image": "/images/weapons/kuda.jpg"
+    },
+    {
+      "id": "8",
+      "name": "VMP",
+      "type": "Subfusil",
+      "damage": 70,
+      "fireRate": "Muy alta",
+      "description": "Subfusil muy rápido y popular.",
+      "image": "/images/weapons/vmp.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Weevil",
+      "type": "Subfusil",
+      "damage": 60,
+      "fireRate": "Alta",
+      "description": "Gran cargador para fuego continuo.",
+      "image": "/images/weapons/weevil.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Pharo",
+      "type": "Subfusil",
+      "damage": 72,
+      "fireRate": "Media",
+      "description": "Subfusil de ráfagas potente.",
+      "image": "/images/weapons/pharo.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Razorback",
+      "type": "Subfusil",
+      "damage": 69,
+      "fireRate": "Media",
+      "description": "Buen alcance y estabilidad.",
+      "image": "/images/weapons/razorback.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Haymaker 12",
+      "type": "Escopeta",
+      "damage": 90,
+      "fireRate": "Alta",
+      "description": "Escopeta automática devastadora.",
+      "image": "/images/weapons/haymaker12.webp"
+    },
+    {
+      "id": "13",
+      "name": "KRM-262",
+      "type": "Escopeta",
+      "damage": 95,
+      "fireRate": "Baja",
+      "description": "Escopeta de bombeo muy potente.",
+      "image": "/images/weapons/krm262.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Argus",
+      "type": "Escopeta",
+      "damage": 92,
+      "fireRate": "Media",
+      "description": "Escopeta precisa al apuntar.",
+      "image": "/images/weapons/argus.jpg"
+    },
+    {
+      "id": "15",
+      "name": "205 Brecci",
+      "type": "Escopeta",
+      "damage": 88,
+      "fireRate": "Media",
+      "description": "Escopeta semiautomática fuerte en interiores.",
+      "image": "/images/weapons/brecci.webp"
+    },
+    {
+      "id": "16",
+      "name": "BRM",
+      "type": "Ametralladora ligera",
+      "damage": 80,
+      "fireRate": "Media",
+      "description": "LMG potente y estable.",
+      "image": "/images/weapons/brm.webp"
+    },
+    {
+      "id": "17",
+      "name": "Dingo",
+      "type": "Ametralladora ligera",
+      "damage": 78,
+      "fireRate": "Alta",
+      "description": "LMG con gran cadencia.",
+      "image": "/images/weapons/dingo.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Gorgon",
+      "type": "Ametralladora ligera",
+      "damage": 95,
+      "fireRate": "Muy baja",
+      "description": "LMG muy potente pero lenta.",
+      "image": "/images/weapons/gorgon.webp"
+    },
+    {
+      "id": "19",
+      "name": "48 Dredge",
+      "type": "Ametralladora ligera",
+      "damage": 85,
+      "fireRate": "Media",
+      "description": "LMG de ráfagas muy fuerte.",
+      "image": "/images/weapons/dredge.webp"
+    },
+    {
+      "id": "20",
+      "name": "Drakon",
+      "type": "Francotirador",
+      "damage": 80,
+      "fireRate": "Alta",
+      "description": "Sniper semiautomático rápido.",
+      "image": "/images/weapons/drakon.webp"
+    },
+    {
+      "id": "21",
+      "name": "Locus",
+      "type": "Francotirador",
+      "damage": 95,
+      "fireRate": "Baja",
+      "description": "Sniper muy usado para quickscope.",
+      "image": "/images/weapons/locus.webp"
+    },
+    {
+      "id": "22",
+      "name": "SVG-100",
+      "type": "Francotirador",
+      "damage": 98,
+      "fireRate": "Muy baja",
+      "description": "Francotirador extremadamente potente.",
+      "image": "/images/weapons/svg100.webp"
+    },
+    {
+      "id": "23",
+      "name": "RK5",
+      "type": "Pistola",
+      "damage": 65,
+      "fireRate": "Alta",
+      "description": "Pistola de ráfagas fiable.",
+      "image": "/images/weapons/rk5.webp"
+    },
+    {
+      "id": "24",
+      "name": "MR6",
+      "type": "Pistola",
+      "damage": 60,
+      "fireRate": "Media",
+      "description": "Pistola estándar equilibrada.",
+      "image": "/images/weapons/mr6.webp"
+    },
+    {
+      "id": "25",
+      "name": "L-CAR 9",
+      "type": "Pistola",
+      "damage": 55,
+      "fireRate": "Muy alta",
+      "description": "Pistola automática rápida.",
+      "image": "/images/weapons/lcar9.webp"
+    },
+    {
+      "id": "26",
+      "name": "XM-53",
+      "type": "Lanzacohetes",
+      "damage": 100,
+      "fireRate": "Muy baja",
+      "description": "Lanzador de misiles guiados.",
+      "image": "/images/weapons/xm53.jpg"
+    },
+    {
+      "id": "27",
+      "name": "BlackCell",
+      "type": "Lanzacohetes",
+      "damage": 100,
+      "fireRate": "Muy baja",
+      "description": "Lanzador antiaéreo.",
+      "image": "/images/weapons/blackcell.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Combat Knife",
+      "type": "Cuerpo a cuerpo",
+      "damage": 100,
+      "fireRate": "Media",
+      "description": "Cuchillo de combate letal.",
+      "image": "/images/weapons/combatknife.webp"
+    },
+    {
+      "id": "29",
+      "name": "NX ShadowClaw",
+      "type": "Especial",
+      "damage": 85,
+      "fireRate": "Media",
+      "description": "Ballesta silenciosa.",
+      "image": "/images/weapons/shadowclaw.webp"
+    },
+    {
+      "id": "30",
+      "name": "HG 40",
+      "type": "Subfusil",
+      "damage": 70,
+      "fireRate": "Media",
+      "description": "Subfusil inspirado en el MP40.",
+      "image": "/images/weapons/hg40.webp"
+    }
+  ],
+  "maps": [
+    {
+      "id": "1",
+      "name": "Aquarium",
+      "description": "Acuario abandonado con rutas estrechas.",
+      "image": "/images/maps/aquarium.webp"
+    },
+    {
+      "id": "2",
+      "name": "Breach",
+      "description": "Mapa urbano futurista con zonas abiertas.",
+      "image": "/images/maps/breach.webp"
+    },
+    {
+      "id": "3",
+      "name": "Combine",
+      "description": "Mapa rápido en el desierto.",
+      "image": "/images/maps/combine.webp"
+    },
+    {
+      "id": "4",
+      "name": "Evac",
+      "description": "Azoteas inundadas en Singapur.",
+      "image": "/images/maps/evac.webp"
+    },
+    {
+      "id": "5",
+      "name": "Exodus",
+      "description": "Zona urbana devastada con varios niveles.",
+      "image": "/images/maps/exodus.webp"
+    },
+    {
+      "id": "6",
+      "name": "Fringe",
+      "description": "Área industrial con combates a media distancia.",
+      "image": "/images/maps/fringe.webp"
+    },
+    {
+      "id": "7",
+      "name": "Havoc",
+      "description": "Complejo nevado con rutas laterales.",
+      "image": "/images/maps/havoc.webp"
+    },
+    {
+      "id": "8",
+      "name": "Hunted",
+      "description": "Mapa en una presa con zonas acuáticas.",
+      "image": "/images/maps/hunted.webp"
+    },
+    {
+      "id": "9",
+      "name": "Infection",
+      "description": "Pueblo europeo con combates largos.",
+      "image": "/images/maps/infection.webp"
+    },
+    {
+      "id": "10",
+      "name": "Metro",
+      "description": "Sistema de metro con pasillos cerrados.",
+      "image": "/images/maps/metro.webp"
+    },
+    {
+      "id": "11",
+      "name": "Redwood",
+      "description": "Bosque de secuoyas gigantes con verticalidad.",
+      "image": "/images/maps/redwood.webp"
+    },
+    {
+      "id": "12",
+      "name": "Stronghold",
+      "description": "Mansión futurista en los Alpes.",
+      "image": "/images/maps/stronghold.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Nuk3town",
+      "description": "Versión futurista del clásico Nuketown.",
+      "image": "/images/maps/nuk3town.webp"
+    },
+    {
+      "id": "7e88",
+      "name": "MapaCreado",
+      "description": "Joyfe",
+      "image": "/images/maps/mapaNuevo.png"
+    }
+  ],
+  "classes": [
+    {
+      "id": "4313",
+      "name": "claseAdmin",
+      "primaryWeapon": "",
+      "secondaryWeapon": "",
+      "attachment1": "",
+      "attachment2": "",
+      "attachment3": "",
+      "perk1": "Ghost",
+      "perk2": "Scavenger",
+      "recommendedMap": "",
+      "userId": "1"
+    },
+    {
+      "id": "1b4b",
+      "name": "claseAdmin2",
+      "primaryWeapon": "",
+      "secondaryWeapon": "",
+      "attachment1": "",
+      "attachment2": "",
+      "attachment3": "",
+      "perk1": "Ghost",
+      "perk2": "Scavenger",
+      "recommendedMap": "",
+      "userId": "1"
+    },
+    {
+      "id": "025f",
+      "name": "claseDago2",
+      "primaryWeapon": "",
+      "secondaryWeapon": "",
+      "attachment1": "",
+      "attachment2": "",
+      "attachment3": "",
+      "perk1": "Ghost",
+      "perk2": "Scavenger",
+      "recommendedMap": "",
+      "userId": "131e"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
