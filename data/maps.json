@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Aquarium",
+    "description": "Mapa situado en un acuario abandonado con rutas estrechas y combates cercanos.",
+    "image": "/images/maps/aquarium.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Breach",
+    "description": "Mapa urbano ambientado en una ciudad futurista con combates a media distancia.",
+    "image": "/images/maps/breach.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Combine",
+    "description": "Mapa pequeño en el desierto con acción rápida y zonas abiertas.",
+    "image": "/images/maps/combine.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Evac",
+    "description": "Combates en azoteas inundadas tras una evacuación en Singapur.",
+    "image": "/images/maps/evac.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Exodus",
+    "description": "Mapa urbano ambientado en una zona devastada con múltiples niveles.",
+    "image": "/images/maps/exodus.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Fringe",
+    "description": "Mapa ambientado en una zona industrial con combates a media y larga distancia.",
+    "image": "/images/maps/fringe.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Havoc",
+    "description": "Mapa nevado con un gran centro de combate y rutas laterales.",
+    "image": "/images/maps/havoc.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Hunted",
+    "description": "Mapa en una presa con zonas acuáticas y combates variados.",
+    "image": "/images/maps/hunted.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Infection",
+    "description": "Mapa ambientado en un pueblo europeo con combates a larga distancia.",
+    "image": "/images/maps/infection.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Metro",
+    "description": "Mapa subterráneo en un sistema de metro con combates cerrados.",
+    "image": "/images/maps/metro.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Redwood",
+    "description": "Mapa en un bosque de secuoyas gigantes con rutas verticales.",
+    "image": "/images/maps/redwood.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Stronghold",
+    "description": "Combates en una mansión futurista situada en los Alpes.",
+    "image": "/images/maps/stronghold.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Nuk3town",
+    "description": "Remake futurista del clásico Nuketown con acción muy rápida.",
+    "image": "/images/maps/nuk3town.jpg"
+  }
+]
