@@ -1,16 +1,71 @@
-# React + Vite
+# BO3 Class Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con **React** inspirada en la interfaz de **Call of Duty: Black Ops 3**.  
+Permite a los usuarios registrarse, iniciar sesión, consultar armas, mapas, especialistas y rachas, además de crear, editar y borrar clases personalizadas.
 
-Currently, two official plugins are available:
+## Descripción del proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto consiste en una aplicación web temática de Black Ops 3 en la que los usuarios pueden crear y gestionar sus propias clases de armas del juego.
 
-## React Compiler
+La aplicación incluye un sistema de login con roles diferenciados:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Usuario normal**: puede consultar contenido del juego y gestionar sus propias clases.
+- **Admin**: puede gestionar contenido global de la aplicación, como armas, mapas y clases de usuarios.
 
-## Expanding the ESLint configuration
+## Funcionalidades principales
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Usuario
+- Registro de cuenta
+- Inicio de sesión
+- Visualización de armas
+- Visualización de mapas
+- Visualización de especialistas
+- Visualización de rachas
+- Crear clases personalizadas
+- Editar clases
+- Borrar clases
+- Ver únicamente sus propias clases
+
+### Admin
+- Acceso a panel de administración
+- Añadir armas
+- Borrar armas
+- Añadir mapas
+- Borrar mapas
+- Eliminar clases de cualquier usuario
+
+## Tecnologías utilizadas
+
+### Framework principal
+- **React**
+
+### Herramientas y librerías
+- **Vite**
+- **React Router DOM**
+- **Bootstrap**
+- **React Hook Form**
+- **Zustand**
+- **React Toastify**
+- **JSON Server**
+
+## Versiones
+Las versiones exactas utilizadas pueden consultarse en el archivo `package.json`.
+
+## Estructura del proyecto
+
+El proyecto está organizado siguiendo una estructura separada por responsabilidades:
+
+- `src/components` → componentes reutilizables
+- `src/features` → lógica dividida por funcionalidades
+- `src/pages` → páginas principales
+- `src/data` → datos estáticos del frontend
+- `src/styles` → estilos globales
+- `public/images` → imágenes del proyecto
+- `db.json` → base de datos simulada para JSON Server
+
+## Instalación y ejecución
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/davidgarciaord/bo3-class-builder.git
