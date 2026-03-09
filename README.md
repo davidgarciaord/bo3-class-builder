@@ -69,3 +69,5 @@ El proyecto está organizado siguiendo una estructura separada por responsabilid
 
 ```bash
 git clone https://github.com/davidgarciaord/bo3-class-builder.git
+
+Proyecto académico desarrollado con React.
