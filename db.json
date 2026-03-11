@@ -20,6 +20,20 @@
       "email": "dago@gmail.com",
       "password": "1234",
       "role": "user"
+    },
+    {
+      "id": "5e0c",
+      "username": "luiss",
+      "email": "luis@gmail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "8757",
+      "username": "mario",
+      "email": "mario@gmail.com",
+      "password": "1234",
+      "role": "user"
     }
   ],
   "weapons": [

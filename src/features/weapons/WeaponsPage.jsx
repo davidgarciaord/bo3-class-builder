@@ -57,7 +57,10 @@ function WeaponsPage() {
           </div>
 
           <div className="weapon-image-box">
-            <img src={selectedWeapon.image} alt={selectedWeapon.name} />
+            <img
+              src={`${import.meta.env.BASE_URL}images/weapons/${selectedWeapon.image}`}
+              alt={selectedWeapon.name}
+            />
           </div>
 
           <div className="weapon-stats">
