@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom';
 import MainLayout from '../pages/MainLayout';
 import HomePage from '../pages/HomePage';
 import WeaponsPage from '../features/weapons/WeaponsPage';
@@ -14,7 +14,7 @@ import SpecialistsPage from '../features/specialists/SpecialistsPage';
 import EditClassPage from "../features/classes/EditClassPage";
 import ScorestreaksPage from '../features/scorestreaks/ScorestreaksPage';
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: '/',
     element: <MainLayout />,

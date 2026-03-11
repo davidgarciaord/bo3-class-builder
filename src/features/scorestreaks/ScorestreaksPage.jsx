@@ -32,7 +32,10 @@ function ScorestreaksPage() {
 
         <div className="scorestreaks-detail-panel">
           <div className="scorestreaks-image-box">
-            <img src={selectedStreak.image} alt={selectedStreak.name} />
+            <img
+              src={`${import.meta.env.BASE_URL}images/scorestreaks/${selectedStreak.image}`}
+              alt={selectedStreak.name}
+            />
           </div>
 
           <div className="scorestreaks-info-box">

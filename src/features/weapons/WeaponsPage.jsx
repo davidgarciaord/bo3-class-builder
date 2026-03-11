@@ -39,7 +39,10 @@ function WeaponsPage() {
                 }`}
                 onClick={() => setSelectedWeapon(weapon)}
               >
-                <img src={weapon.image} alt={weapon.name} />
+                <img
+                  src={`${import.meta.env.BASE_URL}images/weapons/${weapon.image}`}
+                  alt={weapon.name}
+                />
                 <span>{weapon.name}</span>
               </button>
             ))}

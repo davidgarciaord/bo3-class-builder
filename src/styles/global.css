@@ -24,7 +24,7 @@ select {
   display: flex;
   background:
     linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.85)),
-    url("/images/fondo-bo3.jpg")
+    url("/bo3-class-builder/images/fondo-bo3.jpg")
       center/cover no-repeat fixed;
 }
 

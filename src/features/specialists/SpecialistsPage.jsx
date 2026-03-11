@@ -16,7 +16,10 @@ function SpecialistsPage() {
 
           <article key={spec.id} className="specialist-card">
 
-            <img src={spec.image} alt={spec.name} />
+            <img
+              src={`${import.meta.env.BASE_URL}images/specialists/${spec.image}`}
+              alt={spec.name}
+            />
 
             <div className="specialist-overlay">
 

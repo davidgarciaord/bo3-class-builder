@@ -24,7 +24,10 @@ function MapsPage() {
         {mapsData.map((map) => (
           <article key={map.id} className="map-card-bo3">
             <div className="map-image-wrap">
-              <img src={map.image} alt={map.name} />
+              <img
+                src={`${import.meta.env.BASE_URL}images/maps/${map.image}`}
+                alt={map.name}
+              />
             </div>
             <div className="map-info">
               <h3>{map.name}</h3>
